@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Fernandes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-nacionalpark bg-cover bg-center" style="background-image: url('assets/papeldeparede.jpg');">
+    <h1 class="text-3xl absolute top-0 left-0 p-4 z-10"><span class="text-[#ffc9c9]">K</span>aren <span class="text-[#ffc9c9]">F</span>ernandes</h1>
+   <div>
+    <nav class="absolute top-0 right-0 p-4 flex hover fixed">
+        <ul class="flex space-x-4">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="mt-24 ml-4 flex gap-10">
+            <img src="assets/minhafoto.jpg" class="w-[300px] h-[300px] rounded-full z-0 border-[#ffc9c9]">
+        
+        <div class="mt-24 ml-4">
+            <h1 class="font-bold p-5 text-9x1 animate-bounce">Desenvolvedora Front End</h1>
+            <p>Sou estudante de Engenharia de Software e estou em transição de carreira para a área de tecnologia, com foco no desenvolvimento Front-End. Tenho experiência prática com ReactJS, JavaScript, HTML, CSS, Tailwind CSS e Git/GitHub, contribuindo para projetos reais como desenvolvedora voluntária na HastyDEV.</p>
+        <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#ffc9c9]">Currículo</button>
+        <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#7b248c]">GitHub</button>
+        <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#0a66c2]">LinkedIn</button>
+        </div><!--Sobre-->
+    </div><!--paragrafo-->
+
+    <div>
+        <h1 class=" left-10 mt-10 relative inline-block text-2xl font-bold cursor-pointer group">
+            Projetos
+            <span class="absolute left-0 -bottom-1 h-[3px] w-0 bg-[#ffc9c9] transition-all duration-300 group-hover:w-full"></span>
+        </h1>
+        <div class="flex-1 gap-10 mt-10 border rounded-xl p-4 text-center bg-gray-100">
+            <h3>projeto 1</h3>
+        </div><!--projeto1-->
+        <div class="flex-1 border mt-10 rounded-xl p-4 text-center bg-gray-100">
+            <h3>projeto 2</h3>
+        </div><!--projeto2-->
+        <div class="flex-1 border mt-10 rounded-xl p-4 text-center bg-gray-100">
+            <h3>projeto 3</h3>
+        </div><!--projeto3-->
+
+    </div><!--projetos-->
+    <div class="items-center gap-20 mt-10">
+        <h1 class="left-10 mt-10 relative inline-block text-2xl font-bold cursor-pointer group">
+            Habilidades
+            <span class="absolute left-0 -bottom-1 h-[3px] w-0 bg-[#ffc9c9] transition-all duration-300 group-hover:w-full"></span>
+        </h1>
+        <div class="flex flex-row mt-10 gap-20">
+        <img src="assets/html5.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/css3.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/javascript.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/react js.webp" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/typescript.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/tailwind.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        <img src="assets/mysql.png" class="w-[80px] h-[80px] opacity-40 hover:opacity-100 transition-opacity duration-500">
+        </div>
+    </div><!--habilidades-->
+
+    <div class="max-w-xl mx-auto mt-16 p-6 bg-white shadow-lg rounded-xl">
+        <h2 class="text-2xl font-bold mb-6 text-center">Contato</h2>
+        <form class="flex flex-col gap-4">
+          
+          <!-- Nome -->
+          <input 
+            type="text" 
+            placeholder="Seu nome" 
+            class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-300"
+          />
+      
+          <!-- Email -->
+          <input 
+            type="email" 
+            placeholder="Seu e-mail" 
+            class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-300"
+          />
+      
+          <!-- WhatsApp -->
+          <input 
+            type="tel" 
+            placeholder="Seu WhatsApp" 
+            class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-300"
+          />
+      
+          <!-- Mensagem -->
+          <textarea 
+            rows="4" 
+            placeholder="Digite sua mensagem..." 
+            class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-300"
+          ></textarea>
+      
+          <!-- Botão Enviar -->
+          <button 
+            type="submit" 
+            class="bg-[#ffc9c9] hover:bg-pink-500 text-white font-semibold py-3 rounded-md transition-colors duration-300"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>     
+      
+      <footer class="bg-gray-100 mt-16 py-6 flex flex-col items-center md:flex-row md:justify-around gap-4">
+        <div class="flex items-center gap-2">
+          <img src="assets/email.png" class="w-[20px] h-[20px]" alt="Email Icon">
+          <h3>dev.karenfernandes@gmail.com</h3>
+        </div>
+      
+        <div class="flex items-center gap-2">
+          <img src="assets/whatsapp.png" class="w-[20px] h-[20px]" alt="WhatsApp Icon">
+          <h3>(38) 99954-0230</h3>
+        </div>
+      
+        <div class="flex items-center gap-2">
+          <img src="assets/linkedin.webp" class="w-[20px] h-[20px]" alt="LinkedIn Icon">
+          <a href="https://www.linkedin.com/in/karenlpfernandes/" target="_blank" class="text-blue-600 hover:underline">
+            LinkedIn/karenlpfernandes
+          </a>
+        </div>
+      </footer>
+      
+      
+      
+    
+</body>
+</html>
