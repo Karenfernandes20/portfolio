@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karen Fernandes</title>
+    <title>Portfólio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-nacionalpark bg-cover bg-center" style="background-image: url('assets/papeldeparede.jpg');">
-    <h1 class="text-3xl absolute top-0 left-0 p-4 z-10"><span class="text-[#ffc9c9]">K</span>aren <span class="text-[#ffc9c9]">F</span>ernandes</h1>
+<body class=" scroll-smooth font-nacionalpark bg-cover bg-center" style="background-image: url('assets/papeldeparede.jpg');">
+    <h1 class="text-3xl absolute top-0 left-0 p-4 z-10"><span class="text-[#ffc9c9]">P</span>ort<span class="text-[#ffc9c9]">f</span>ólio</h1>
    <div>
     <nav class="absolute top-0 right-0 p-4 flex hover fixed">
         <ul class="flex space-x-4">
@@ -22,32 +22,75 @@
     <div class="mt-24 ml-4 flex gap-10">
             <img src="assets/minhafoto.jpg" class="w-[300px] h-[300px] rounded-full z-0 border-[#ffc9c9]">
         
-        <div class="mt-24 ml-4">
-            <h1 class="font-bold p-5 text-9x1 animate-bounce">Desenvolvedora Front End</h1>
+        <div id="sobre" class="scroll-mt-24 ml-4">
+            <h1 class="font-bold p-10 text-[50px]">Karen Fernandes</h1>
             <p>Sou estudante de Engenharia de Software e estou em transição de carreira para a área de tecnologia, com foco no desenvolvimento Front-End. Tenho experiência prática com ReactJS, JavaScript, HTML, CSS, Tailwind CSS e Git/GitHub, contribuindo para projetos reais como desenvolvedora voluntária na HastyDEV.</p>
-        <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#ffc9c9]">Currículo</button>
+        <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#ffc9c9] mt-10">Currículo</button>
         <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#7b248c]">GitHub</button>
         <button class="px-4 py-2 bg-white text-black rounded-lg hover:bg-[#0a66c2]">LinkedIn</button>
         </div><!--Sobre-->
     </div><!--paragrafo-->
 
-    <div>
-        <h1 class=" left-10 mt-10 relative inline-block text-2xl font-bold cursor-pointer group">
-            Projetos
-            <span class="absolute left-0 -bottom-1 h-[3px] w-0 bg-[#ffc9c9] transition-all duration-300 group-hover:w-full"></span>
-        </h1>
-        <div class="flex-1 gap-10 mt-10 border rounded-xl p-4 text-center bg-gray-100">
-            <h3>projeto 1</h3>
-        </div><!--projeto1-->
-        <div class="flex-1 border mt-10 rounded-xl p-4 text-center bg-gray-100">
-            <h3>projeto 2</h3>
-        </div><!--projeto2-->
-        <div class="flex-1 border mt-10 rounded-xl p-4 text-center bg-gray-100">
-            <h3>projeto 3</h3>
-        </div><!--projeto3-->
+    <div id=projetos class="scroll-mt-10 px-4">
+      <h1 class="relative inline-block text-2xl font-bold cursor-pointer group">
+        Projetos
+        <span class="absolute left-0 -bottom-1 h-[3px] w-0 bg-[#ffc9c9] transition-all duration-300 group-hover:w-full"></span>
+      </h1>
+    
+      <div class="flex flex-wrap gap-10 mt-10 justify-center">
+        <!-- Projeto 1 -->
+        <div class="w-60 h-80 bg-gray-100 rounded-xl overflow-hidden text-center shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-60 overflow-hidden">
+            <img
+              src="assets/Cardápio Saborê.png"
+              alt="Cardápio Saborê"
+              class="h-full w-full object-cover transform group-hover:-translate-y-4 transition-transform duration-500"
+            />
+          </div>
+          <p class="mt-4 font-medium">Cardápio Saborê</p>
+        </div>
+    
+        <!-- Projeto 2 -->
+        <div class="w-60 h-80 bg-gray-100 rounded-xl overflow-hidden text-center shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-60 overflow-hidden">
+            <img
+              src="assets/Desafio do código perdido.png"
+              alt="Desafio do Código Perdido"
+              class="h-full w-full object-cover transform group-hover:-translate-y-4 transition-transform duration-500"
+            />
+          </div>
+          <p class="mt-4 font-medium">Desafio do Código Perdido</p>
+        </div>
+    
+        <!-- Projeto 3 -->
+        <div class="w-60 h-80 bg-gray-100 rounded-xl overflow-hidden text-center shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-60 overflow-hidden">
+            <img
+              src="assets/Calculadora.png"
+              alt="Calculadora"
+              class="h-full w-full object-cover transform group-hover:-translate-y-4 transition-transform duration-500"
+            />
+          </div>
+          <p class="mt-4 font-medium">Calculadora</p>
+        </div>
+    
+        <!-- Projeto 4 -->
+        <div class="w-60 h-80 bg-gray-100 rounded-xl overflow-hidden text-center shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-60 overflow-hidden">
+            <img
+              src="assets/Site socorro eletro.png"
+              alt="Site Socorro Eletro"
+              class="h-full w-full object-cover transform group-hover:-translate-y-4 transition-transform duration-500"
+            />
+          </div>
+          <p class="mt-4 font-medium">Site Socorro Eletro</p>
+        </div>
+      </div>
+    </div>
+    
 
-    </div><!--projetos-->
-    <div class="items-center gap-20 mt-10">
+
+    <div id="habilidades" class="items-center gap-20 scroll-mt-10">
         <h1 class="left-10 mt-10 relative inline-block text-2xl font-bold cursor-pointer group">
             Habilidades
             <span class="absolute left-0 -bottom-1 h-[3px] w-0 bg-[#ffc9c9] transition-all duration-300 group-hover:w-full"></span>
@@ -63,7 +106,7 @@
         </div>
     </div><!--habilidades-->
 
-    <div class="max-w-xl mx-auto mt-16 p-6 bg-white shadow-lg rounded-xl">
+    <div id="contato" class="max-w-xl mx-auto scroll-mt-16 p-6 bg-white shadow-lg rounded-xl">
         <h2 class="text-2xl font-bold mb-6 text-center">Contato</h2>
         <form class="flex flex-col gap-4">
           
@@ -124,8 +167,8 @@
         </div>
       </footer>
       
-      
-      
+
+
     
 </body>
 </html>
